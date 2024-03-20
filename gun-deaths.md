@@ -18,7 +18,7 @@ The world is a dangerous place. In recent years there has been a lot of discussi
 
 FiveThirtyEight’s visualizations focused on yearly averages. I decided to create visualizations to answer the following questions:
 - What is the relationship between intent and time of year? Specifically, is there a relationship between suicides and seasonal depression?
-- What is the relationship between death count and race? Specifically, deaths caused by the police? 
+- What is the relationship between death count and race? Specifically, deaths caused by the police?
 
 
 ## Setup
