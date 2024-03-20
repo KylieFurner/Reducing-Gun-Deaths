@@ -12,21 +12,17 @@ output:
     fig_align: 'center'
 ---
 
+## Background
 
+The world is a dangerous place. In recent years there has been a lot of discussion about police shootings. Referencing FiveThirtyEight.com's report on [gun deaths in 2016](https://fivethirtyeight.com/features/gun-deaths/), I have created several visualizations to address some questions. I used a clean version of their data posted to their GitHub repo called [full_data.csv](https://github.com/fivethirtyeight/guns-data).
 
+FiveThirtyEight’s visualizations focused on yearly averages. I decided to focus on a broader scope, and challenge myself to summarize and visualize seasonal trends across other variables in these data.
 
-
-
+## Setup
 ```r
 # Import datasets
 data <- read.csv('https://raw.githubusercontent.com/fivethirtyeight/guns-data/master/full_data.csv')
 ```
-
-## Background
-
-The world is a dangerous place. During 2015 and 2016 there was a lot of discussion in the news about police shootings. FiveThirtyEight.com reported on gun deaths in 2016. As leaders in data journalism, they have posted a clean version of this data in their GitHub repo called full_data.csv for us to use.
-
-FiveThirtyEight’s visualizations focused on yearly averages. Your task is broader in scope. You are working for a client who wants to create a marketing campaign that helps reduce gun deaths in the US. The client would like to adjust the campaign in different seasons of the year to target audiences that could have the most impact in reducing gun deaths. Your challenge is to summarize and visualize seasonal trends across other variables in these data.
 
 ## Data Wrangling
 
