@@ -53,7 +53,7 @@ ggplot(data = data, aes(x=month)) +
   scale_fill_brewer(palette = "OrRd")
 ```
 
-![](W5-reducing-gun-deaths_files/figure-html/chart1-1.png)<!-- -->
+![](chart1-1.png)<!-- -->
 
 ## Race and Police Involvment
 
