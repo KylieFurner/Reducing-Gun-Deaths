@@ -69,7 +69,7 @@ ggplot(data = yespolice, aes(x="")) +
   scale_fill_brewer(palette = "Spectral")
 ```
 
-![](W5-reducing-gun-deaths_files/figure-html/chart2-1.png)<!-- -->
+![](chart2-1.png)<!-- -->
 
 
 However, when we compare the chart to deaths without police involvement we see that the white and Hispanic categories change quite a lot. Police deaths decrease the proportion of white deaths but increase the proportion of Hispanic deaths by a notable amount. Examining both charts carefully you can actually see that all race deaths EXCEPT for white are increased when police are involved even if not by much.
@@ -83,4 +83,4 @@ ggplot(data = nopolice, aes(x="")) +
   scale_fill_brewer(palette = "Spectral")
 ```
 
-![](W5-reducing-gun-deaths_files/figure-html/chart3-1.png)<!-- -->
+![](chart3-1.png)<!-- -->
