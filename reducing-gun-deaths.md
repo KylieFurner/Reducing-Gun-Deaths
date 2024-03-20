@@ -1,7 +1,6 @@
 ---
 title: "Reducing Gun Deaths"
 author: "Kylie"
-date: "November 30, 2022"
 output:
   html_document:  
     keep_md: true
@@ -19,7 +18,7 @@ output:
 
 
 ```r
-# Use this R-Chunk to import all your datasets!
+# Import datasets
 data <- read.csv('https://raw.githubusercontent.com/fivethirtyeight/guns-data/master/full_data.csv')
 ```
 
@@ -33,7 +32,7 @@ FiveThirtyEight’s visualizations focused on yearly averages. Your task is broa
 
 
 ```r
-# Use this R-Chunk to clean & wrangle your data!
+# Clean and Wrangle the Data
 yespolice <- data %>%
 filter(police == 1)
 
@@ -46,7 +45,7 @@ This chart tries to find a connection between intent and time of year. I was won
 
 
 ```r
-# Use this R-Chunk to plot & visualize your data!
+# Plot and Visualize
 ggplot(data = data, aes(x=month)) + 
   geom_bar(aes(fill=intent)) + 
   facet_wrap(~year) + 
@@ -61,7 +60,7 @@ ggplot(data = data, aes(x=month)) +
 This chart shows the deaths caused by police officers grouped by race. In the first chart we can clearly see that the most commonly killed race shot by police officers is white. 
 
 ```r
-# Use this R-Chunk to plot & visualize your data!
+# Plot and Visualize
 ggplot(data = yespolice, aes(x="")) + 
   geom_bar(aes(fill = race)) + 
   coord_polar("y", start=0) +
